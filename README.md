@@ -9,11 +9,11 @@
 
 Now that we've built our own `.each` and `.collect` methods, let's build our own `.select` method! If you don't remember what `.select` does, review the [Ruby docs](http://ruby-doc.org/core-2.2.2/Enumerable.html#method-i-select) on it.
 
-Run `bundle install` first to update or install any gems. 
+Run `bundle install` first to update or install any gems.
 
 Write your code in `lib/my_select.rb`. Get the tests to pass.
 
-A few things to think about: 
+A few things to think about:
 
 * What is the return value of yielding a character to a block?
 * How can you ensure your `.select` method can respond appropriately to being passed an argument of an empty collection?
